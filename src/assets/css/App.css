@@ -1,0 +1,431 @@
+.App {
+    text-align: center;
+}
+
+.main-content {
+    min-width: 320px;
+}
+
+.battlefieldTable {
+    border: 1px solid #f4b23e;
+}
+
+.centered {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 22px;
+}
+
+.navbar-default {
+    background-color: #9498f8;
+    background: #9498f8;
+    border-color: #9498f8;
+    border-radius: 0;
+    color: white;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+
+.color {
+    color: #58b4a0;
+}
+
+h1 {
+    color: #ec6361;
+}
+
+@media (min-width: 320px) {
+    table {
+        background-color: white;
+        display: table;
+        border-collapse: separate;
+        border-spacing: 0;
+        table-layout: fixed;
+        border: 1px solid #f4b23e;
+        width: 280px;
+        height: 280px;
+    }
+
+    .battleFieldPanel {
+        padding-top: 20px;
+        background-color: #f4b23e;
+    }
+
+    .scoresPanel {
+        padding-top: 0px;
+    }
+
+    td {
+        height: 28px;
+        width: 28px;
+        border: 1px solid rgba(166, 164, 156, 0.8);
+        padding: 0;
+    }
+
+    ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+
+    .emptyBattleField {
+        height: 280px;
+        width: 280px;
+    }
+
+    .cellStyle {
+        width: auto;
+        height: auto;
+    }
+
+    .cellStyle {
+        width: 28px;
+        height: 26px;
+    }
+
+    .col-xs-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .miss {
+        width: 28px;
+        height: 28px;
+    }
+
+    .hitted {
+        width: 28px;
+        height: 28px;
+    }
+
+    .scoreText {
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+
+    .shipItem {
+        float: left;
+        width: 160px;
+        clear: left;
+    }
+
+    .shipIcon {
+        width: 70px;
+        height: auto;
+        padding: 5px;
+    }
+
+    .hitPointMark {
+        width: 10px;
+        margin: 3px;
+    }
+
+    .flotillaContainer {
+        overflow: auto;
+        width: auto;
+        max-height: 80px;
+    }
+}
+
+@media (min-width: 576px) {
+    table {
+        display: table;
+        border-collapse: separate;
+        border-spacing: 0;
+        table-layout: fixed;
+        border: 1px solid #f4b23e;
+        width: 700px;
+        height: 700px;
+    }
+
+    .battleFieldPanel {
+        padding-top: 20px;
+        background-color: white;
+    }
+
+    .scoresPanel {
+        padding-top: 20px;
+    }
+
+    td {
+        height: 70px;
+        width: 70px;
+        border: 1px solid rgba(166, 164, 156, 0.8);
+        padding: 0;
+    }
+
+    ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+
+    .emptyBattleField {
+        height: 700px;
+        width: 700px;
+    }
+
+    .cellStyle {
+        width: 70px;
+        height: 68px;
+    }
+
+    .miss {
+        width: 70px;
+        height: 70px;
+    }
+
+    .hitted {
+        width: 70px;
+        height: 70px;
+    }
+
+    .scoresPanel {
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+
+    .scoreText {
+        margin-top: 15px;
+        margin-bottom: 18px;
+    }
+
+    .shipIcon {
+        width: 100px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .shipItem {
+        float: left;
+        width: 200px;
+        clear: left;
+    }
+
+    .hitPointMark {
+        width: 12px;
+        margin: 3px;
+    }
+
+    .flotillaContainer {
+        overflow: auto;
+        width: auto;
+        max-height: 700px;
+    }
+}
+
+@media (min-width: 900px) {
+    table {
+        display: table;
+        border-collapse: separate;
+        border-spacing: 0;
+        table-layout: fixed;
+        border: 1px solid #f4b23e;
+        width: 400px;
+        height: 400px;
+    }
+
+    .battleFieldPanel {
+        padding-top: 20px;
+        background-color: white;
+    }
+
+    .scoreText {
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+
+    .scoresPanel {
+        padding-top: 20px;
+    }
+
+    td {
+        height: 40px;
+        width: 40px;
+        border: 1px solid rgba(166, 164, 156, 0.8);
+        padding: 0;
+    }
+
+    ul {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+
+    .emptyBattleField {
+        height: 400px;
+        width: 400px;
+    }
+
+    .cellStyle {
+        width: 40px;
+        height: 38px;
+    }
+
+    .miss {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hitted {
+        width: 40px;
+        height: 40px;
+    }
+
+    .shipIcon {
+        width: 100px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .shipItem {
+        float: left;
+        width: 200px;
+        clear: left;
+    }
+
+    .hitPointMark {
+        width: 12px;
+        margin: 3px;
+    }
+
+    .flotillaContainer {
+        overflow: auto;
+        width: auto;
+        max-height: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    table {
+        display: table;
+        border-collapse: separate;
+        border-spacing: 0;
+        table-layout: fixed;
+        border: 1px solid #f4b23e;
+        width: 500px;
+        height: 500px;
+    }
+
+    .battleFieldPanel {
+        padding-top: 20px;
+        background-color: white;
+    }
+
+    .scoreText {
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+
+    .scoresPanel {
+        padding-top: 20px;
+    }
+
+    td {
+        height: 50px;
+        width: 50px;
+        border: 1px solid rgba(166, 164, 156, 0.8);
+        border-spacing: 0 0;
+        padding: 0;
+    }
+
+    ul {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+
+    .emptyBattleField {
+        height: 500px;
+        width: 500px;
+    }
+
+    .cellStyle {
+        width: 50px;
+        height: 48px;
+    }
+
+    .miss {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hitted {
+        width: 50px;
+        height: 50px;
+    }
+
+    .shipIcon {
+        width: 100px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .shipItem {
+        float: left;
+        width: 200px;
+        clear: left;
+    }
+
+    .hitPointMark {
+        width: 12px;
+        margin: 3px;
+    }
+
+    .flotillaContainer {
+        overflow: auto;
+        width: auto;
+        max-height: 500px;
+    }
+}
+
+.scoreHits {
+    background-color: #f4b23e;
+    width: 50%;
+    float: left;
+}
+
+.scoreShots {
+    background-color: #58b4a0;
+    width: 50%;
+    float: left;
+}
+
+.scores {
+    color: #595959;
+}
+
+.scorePanel {
+    display: inline-block;
+    width: 100%;
+}
+
+p {
+    color: #595959;
+}
+
+hr {
+    border-color: #595959;
+    margin: 0 10px 0 10px;
+    border-top-width: 2px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
